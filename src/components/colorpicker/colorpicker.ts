@@ -9,7 +9,7 @@ import {Rgba, Hsla, Hsva, SliderPosition, SliderDimension} from './classes';
         '(click)': 'onClick()'
     }
 })
-export class ColorPickerDirective implements OnInit {
+export class Md2Colorpicker implements OnInit {
     @Input('colorPicker') colorPicker: string;
     @Output('colorPickerChange') colorPickerChange = new EventEmitter<string>();
     @Input('containerPosition') containerPosition: string = 'bottom';
