@@ -292,7 +292,7 @@ export class DialogComponent implements OnInit {
         }
         this.update();
     }
-
+    //update color value
     update() {
         let hsla = this.service.hsva2hsla(this.hsva);
         let rgba = this.service.denormalizeRGBA(this.service.hsvaToRgba(this.hsva));
